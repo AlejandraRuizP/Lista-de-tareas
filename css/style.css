@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Koulen&family=PT+Serif:ital,wght@1,700&family=Press+Start+2P&family=Public+Sans:wght@200&family=Roboto&family=Seymour+One&family=Signika+Negative:wght@700&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap');
+*{
+    font-family: 'Akshar', sans-serif;
+ }
+
+body{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #8080d1;
+    color: white;
+}
+.input-div{
+    width: 600px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+input{
+    width: 400px;
+    height:60px;
+    margin: 5px;
+    padding: 0px,20px,0px,20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+ button{
+    background-color: #5959de;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 2.5px;
+    cursor: pointer;
+}  
+.btn-agregar{
+    width:50px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5959de;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.5;
+}  
